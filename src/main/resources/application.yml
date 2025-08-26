@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+  spring:
+    datasoruce:
+      url:jdbc:mysql://avnadmin:
+        username: avnadmin
+        password:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+      jpa:
+        hibernate:
+          ddl-auto: update # usa "none" si no quieres que se altere el esquema
+          show-sql: true
+          propierties:
+            hibernate:
+              dialect: org.hibernate.dialect.MySQL8Dialect
