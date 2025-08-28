@@ -39,7 +39,7 @@ Instalación y ejecución:
 
 Clonar el repositorio:
 
-git clone https://github.com/usuario/cleanapp.git
+git clone https://github.com/Elog115/cleanapp.git
 cd cleanapp
 
 
